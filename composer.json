@@ -1,0 +1,21 @@
+{
+    "name": "crnkovic/public-id",
+    "description": "Automatic public ID generation for Laravel.",
+    "license": "MIT",
+    "keywords": ["laravel", "uuid", "public-id"],
+    "authors": [
+        {
+            "name": "Josip Crnković",
+            "email": "jcrnkovic95@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.2",
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crnkovic\\PublicID\\": "src/"
+        }
+    }
+}
